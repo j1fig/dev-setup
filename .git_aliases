@@ -1,0 +1,5 @@
+#Aliases
+alias gts='git status'
+alias gta='git add .'
+alias gtc='git commit -m'
+
