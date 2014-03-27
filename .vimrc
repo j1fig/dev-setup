@@ -16,6 +16,18 @@ Plugin 'a.vim'
 
 filetype plugin indent on
 
+syntax on
+set wildmode=longest:full
+set wildmenu
+set smartindent
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
 nmap <F8> :TagbarToggle<CR>
+"control tab goes to next buffer
+"map <C-Tab> :bn<cr>
+"""shift control tab goes to previous buffer
+map <S-C-Tab> :bp<cr>
 
 :set tags=./tags,./../tags,./../../tags,./../../../tags,tags
