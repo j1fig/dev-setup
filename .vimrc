@@ -25,8 +25,9 @@ set shiftwidth=4
 set expandtab
 
 nmap <F8> :TagbarToggle<CR>
+map <F7> :NERDTreeToggle<CR>
 "control tab goes to next buffer
-"map <C-Tab> :bn<cr>
+map <C-Tab> :bn<cr>
 """shift control tab goes to previous buffer
 map <S-C-Tab> :bp<cr>
 
