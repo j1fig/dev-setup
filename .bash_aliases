@@ -17,10 +17,11 @@ alias la='ls -A'
 alias l='ls -CF'
 
 # ctags aliases
-ctags-recurse='find * -type d -exec $DIRTAGS {} \;'
+alias ctags-recurse='find * -type d -exec $DIRTAGS {} \;'
+alias ctags-global='ctags --file-scope=no -R'
 
 # Git aliases
 alias gts='git status'
-alias gta='git add .'
+alias gta='git add -u .'
 alias gtc='git commit -m '
 
