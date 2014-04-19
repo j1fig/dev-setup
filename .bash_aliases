@@ -22,6 +22,7 @@ alias ctags-global='ctags --file-scope=no -R'
 
 # Git aliases
 alias gts='git status'
-alias gta='git add -u .'
+alias gta='git add .'
+alias gtar='git add -u .'
 alias gtc='git commit -m '
 

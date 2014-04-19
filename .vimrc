@@ -13,6 +13,7 @@ Plugin 'gmarik/vundle'
 Plugin 'Tagbar'
 Plugin 'The-NERD-tree'
 Plugin 'a.vim'
+Plugin 'Solarized'
 
 filetype plugin indent on
 
@@ -24,11 +25,17 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
+let g:solarized_termcolors=256
+
+"set background=dark
+"colorscheme solarized
+
+map <F2> g]
 nmap <F8> :TagbarToggle<CR>
-map <F7> :NERDTreeToggle<CR>
+map <F9> :NERDTreeToggle<CR>
 "control tab goes to next buffer
 map <C-Tab> :bn<cr>
 """shift control tab goes to previous buffer
 map <S-C-Tab> :bp<cr>
 
-:set tags=./tags,./../tags,./../../tags,./../../../tags,tags
+:set tags=./tags,./../tags,./../../tags,./../../../tags,/home/j1figuei/projects/coriant/mTera/tags
