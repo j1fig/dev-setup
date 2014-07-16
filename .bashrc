@@ -73,8 +73,8 @@ xterm*|rxvt*)
 esac
 
 # Project specific environments
-source .base_env
-source .mtera_env
+source ~/.base_env
+source ~/.mtera_env
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like

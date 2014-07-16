@@ -31,6 +31,7 @@ let g:solarized_termcolors=256
 "colorscheme solarized
 
 map <F2> g]
+map <F3> :vsp<CR>g]
 nmap <F8> :TagbarToggle<CR>
 map <F9> :NERDTreeToggle<CR>
 "control tab goes to next buffer
@@ -38,4 +39,6 @@ map <C-Tab> :bn<cr>
 """shift control tab goes to previous buffer
 map <S-C-Tab> :bp<cr>
 
-:set tags=./tags,./../tags,./../../tags,./../../../tags,/home/j1figuei/projects/coriant/mTera/tags
+:set tags=./tags,./../tags,./../../tags,./../../../tags,/mnt/data/mtera/vobs/tags
+
+:set nowrap
