@@ -1,0 +1,9 @@
+[user]
+	name = Joao Figueiredo
+	email = joaonvfigueiredo@gmail.com
+[core]
+	editor = vim
+[merge]
+	tool = vimdiff
+[http]
+    #proxy = "http://proxy-emea.intra.coriant.com:81"

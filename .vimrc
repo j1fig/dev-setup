@@ -39,6 +39,10 @@ map <C-Tab> :bn<cr>
 """shift control tab goes to previous buffer
 map <S-C-Tab> :bp<cr>
 
-:set tags=./tags,./../tags,./../../tags,./../../../tags,/mnt/data/mtera/vobs/tags
+"set tags=./tags,./../tags,./../../tags,./../../../tags,/mnt/data/mtera/vobs/tags
 
-:set nowrap
+set nowrap
+
+set paste
+set showmode
+set ruler

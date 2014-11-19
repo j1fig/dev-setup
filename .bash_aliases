@@ -26,3 +26,7 @@ alias gta='git add .'
 alias gtar='git add -u .'
 alias gtc='git commit -m '
 
+# Tmux aliases
+alias ta='tmux attach -t'
+alias tn='tmux new -s'
+
