@@ -16,8 +16,8 @@ HISTCONTROL=ignoreboth
 shopt -s histappend
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=1000
-HISTFILESIZE=2000
+HISTSIZE=10000
+HISTFILESIZE=20000
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
@@ -96,4 +96,17 @@ if ! shopt -oq posix; then
   fi
 fi
 
+
+# If we want to have bash immediately add commands to our history 
+# instead of waiting for the end of each session (to enable commands 
+# in one terminal to be instantly be available in another), we can also 
+# set or append the history -a command to the PROMPT_COMMAND parameter, 
+# which contains commands that are executed before each new command prompt.
+# To do this correctly, we need to do a bit of a hack. We need to append 
+# to the history file immediately with history -a, clear the current 
+# history in our session with history -c, and then read the history file 
+# that we've appended to, back into our session history with history -r.
+# You can do this like so:
+
+export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 
