@@ -110,3 +110,6 @@ fi
 
 export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/projects
+source /usr/local/bin/virtualenvwrapper.sh
