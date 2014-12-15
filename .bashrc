@@ -63,6 +63,10 @@ else
 fi
 unset color_prompt force_color_prompt
 
+# Force xterm-256color
+export TERM="xterm-256color"
+#export TERM=screen-256color-bce
+
 # If this is an xterm set the title to user@host:dir
 case "$TERM" in
 xterm*|rxvt*)
@@ -108,7 +112,7 @@ fi
 # that we've appended to, back into our session history with history -r.
 # You can do this like so:
 
-export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
+#export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/projects

@@ -14,6 +14,8 @@ Plugin 'Tagbar'
 Plugin 'The-NERD-tree'
 Plugin 'a.vim'
 Plugin 'Solarized'
+Plugin 'nvie/vim-flake8'
+Plugin 'zeis/vim-kolor'
 
 call vundle#end()
 
@@ -27,10 +29,11 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
-let g:solarized_termcolors=256
+"let g:solarized_termcolors=256
 
-"set background=dark
-"colorscheme solarized
+set background=dark
+set t_Co=16
+colorscheme solarized
 
 map <F2> g]
 map <F3> :vsp<CR>g]

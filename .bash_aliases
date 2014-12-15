@@ -28,5 +28,5 @@ alias gtc='git commit -m '
 
 # Tmux aliases
 alias ta='tmux attach -t'
-alias tn='tmux new -s'
+alias tn='TERM=xterm-256color /usr/bin/tmux -2 new -s'
 
