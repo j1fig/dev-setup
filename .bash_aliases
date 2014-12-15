@@ -28,5 +28,4 @@ alias gtc='git commit -m '
 
 # Tmux aliases
 alias ta='tmux attach -t'
-alias tn='TERM=xterm-256color /usr/bin/tmux -2 new -s'
-
+alias tn='TERM=screen-256color-bce /usr/bin/tmux -2 new -s'

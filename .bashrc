@@ -64,7 +64,7 @@ fi
 unset color_prompt force_color_prompt
 
 # Force xterm-256color
-export TERM="xterm-256color"
+#export TERM="xterm-256color"
 #export TERM=screen-256color-bce
 
 # If this is an xterm set the title to user@host:dir
