@@ -32,7 +32,7 @@ set shiftwidth=4
 set expandtab
 
 set t_Co=256
-set background=light
+set background=dark
 if !has('gui_running')
     let g:solarized_termcolors=&t_Co
     "let g:solarized_termtrans=1
