@@ -12,7 +12,7 @@ apt-get install -y postgresql-server-dev-all postgresql-client postgresql redis-
 apt-get install -y tshark wireshark
 
 # development
-apt-get install -y python-dev python-pip virtualenvwrapper cmake ruby ruby-dev gem ruby-execjs
+apt-get install -y python-dev python-pip virtualenvwrapper cmake ruby ruby-dev gem ruby-execjs rake
 
 # gems
 gem install jekyll rhc
