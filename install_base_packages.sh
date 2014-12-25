@@ -16,3 +16,6 @@ apt-get install -y python-dev python-pip virtualenvwrapper cmake ruby ruby-dev g
 
 # gems
 gem install jekyll rhc
+
+# pips
+pip install flake8
