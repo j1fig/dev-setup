@@ -3,7 +3,7 @@
 apt-get update
 
 # utils
-apt-get install -y tmux vim git guake thunderbird pavucontrol chromium-browser flashplugin-installer vlc
+apt-get install -y tmux vim git guake thunderbird pavucontrol chromium-browser flashplugin-installer vlc skype
 
 # databases
 apt-get install -y postgresql-server-dev-all postgresql-client postgresql redis-server redis-tools
