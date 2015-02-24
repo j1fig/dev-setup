@@ -18,4 +18,4 @@ apt-get install -y python-dev python-pip python-virtualenv virtualenvwrapper cma
 gem install jekyll rhc
 
 # pips
-pip install flake8
+pip install flake8 lxml
