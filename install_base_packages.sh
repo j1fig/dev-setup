@@ -3,7 +3,7 @@
 apt-get update
 
 # utils
-apt-get install -y tmux vim git guake thunderbird pavucontrol chromium-browser flashplugin-installer vlc skype gimp htop okular inkscape
+apt-get install -y tmux vim git guake thunderbird pavucontrol chromium-browser flashplugin-installer vlc skype gimp htop okular inkscape arandr
 
 # databases
 apt-get install -y postgresql-server-dev-all postgresql-client postgresql redis-server redis-tools
@@ -18,4 +18,4 @@ apt-get install -y python-dev python-pip python-virtualenv python-matplotlib vir
 gem install jekyll rhc
 
 # pips
-pip install flake8 lxml
+pip install flake8 lxml youtube-dl
