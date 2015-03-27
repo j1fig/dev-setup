@@ -9,7 +9,7 @@ apt-get install -y tmux vim git guake thunderbird pavucontrol chromium-browser f
 apt-get install -y postgresql-server-dev-all postgresql-client postgresql redis-server redis-tools
 
 # debugging
-apt-get install -y tshark wireshark mono-complete libmono-system-windows-forms4.0-cil libmono-windowsbase4.0-cil libmono-system-web4.0-cil mono-mcs
+apt-get install -y tshark wireshark mono-complete libmono-system-windows-forms4.0-cil libmono-windowsbase4.0-cil libmono-system-web4.0-cil mono-mcs jq
 
 # development
 apt-get install -y python-dev python-pip python-virtualenv python-matplotlib virtualenvwrapper cmake exuberant-ctags libboost-all-dev ruby ruby-dev gem ruby-execjs rake virtualbox vagrant docker.io npm
