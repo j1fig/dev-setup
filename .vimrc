@@ -16,6 +16,7 @@ Plugin 'a.vim'
 Plugin 'Solarized'
 Plugin 'nvie/vim-flake8'
 Plugin 'zeis/vim-kolor'
+Plugin 'klen/python-mode'
 
 call vundle#end()
 
@@ -32,7 +33,7 @@ set shiftwidth=4
 set expandtab
 
 set t_Co=256
-set background=dark
+set background=light
 if !has('gui_running')
     let g:solarized_termcolors=&t_Co
     "let g:solarized_termtrans=1
