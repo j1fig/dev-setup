@@ -9,6 +9,8 @@ call vundle#begin()
 "call vundle#rc(path)
 
 " let Vundle manage Vundle, required
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
 Plugin 'gmarik/Vundle.vim'
 Plugin 'Tagbar'
 Plugin 'The-NERD-tree'
@@ -33,7 +35,7 @@ set shiftwidth=4
 set expandtab
 
 set t_Co=256
-set background=light
+set background=dark
 if !has('gui_running')
     let g:solarized_termcolors=&t_Co
     "let g:solarized_termtrans=1
