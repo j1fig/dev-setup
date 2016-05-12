@@ -116,4 +116,5 @@ fi
 
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/projects
+export EDITOR=vim
 source /usr/local/bin/virtualenvwrapper.sh

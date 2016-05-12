@@ -1,19 +1,6 @@
 #BASE ENV
 
 PROJECT_HOME=$HOME/projects
-DEV_REPO=$PROJECT_HOME/dev
-HOST_SHARED_FOLDER=/media/sf_debian_share
-
-#TAGS ENV
-DIRTAGS=$DEV_REPO/dirtags.sh
-
-LINODE="j1figuei@176.58.102.95"
-
-alias ssh-linode='ssh $LINODE'
-
-function scp-linode {
-      scp $1 $LINODE:$2
-}
 
 SSH_ENV="$HOME/.ssh/environment"
 

@@ -19,6 +19,8 @@ Plugin 'Solarized'
 Plugin 'nvie/vim-flake8'
 Plugin 'zeis/vim-kolor'
 Plugin 'klen/python-mode'
+Plugin 'derekwyatt/vim-scala'
+Plugin 'leafgarland/typescript-vim'
 
 call vundle#end()
 
@@ -58,3 +60,6 @@ set nowrap
 set paste
 set showmode
 set ruler
+
+let g:pymode_rope_autoimport = 0
+let g:pymode_rope=0
