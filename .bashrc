@@ -117,4 +117,8 @@ fi
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/projects
 export EDITOR=vim
+
+export GOPATH=$PROJECT_HOME/go
+export PATH=$GOPATH/bin:$PATH
+
 source /usr/local/bin/virtualenvwrapper.sh
